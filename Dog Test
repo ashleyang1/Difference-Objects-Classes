@@ -1,0 +1,40 @@
+package DifferenceObjectsClasses;
+
+public class DogTest {
+
+	public static void main(String[] args) {
+		
+		//creating an object of the class
+		
+		Dog dog1= new Dog();
+		
+		dog1.Name="Venus";
+		dog1.Color="Black";
+		dog1.Age="6";
+		dog1.Breed="Cocker Spaniel \n";
+		
+		dog1.displayName();
+		
+		//creating another object
+		
+		Dog dog2=new Dog();
+		dog2.Name="Kuro Bean";
+		dog2.Color="Brown";
+		dog2.Age="2";
+		dog2.Breed="King Charles Spaniel \n";
+		
+		dog2.displayName();
+		
+
+		// creating a 3rd object that uses the constructor w parameters
+		
+		Dog dog3= new Dog("Bonnie", "Grey", "4", "Great Dane \n");
+		dog3.displayName();
+	
+		//creating 4th object that utilizes constructor with name only
+		
+		Dog dog4=new Dog("Billy");
+		dog4.displayName();
+		
+	}
+}
