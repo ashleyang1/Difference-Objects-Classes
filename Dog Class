@@ -1,0 +1,51 @@
+package DifferenceObjectsClasses;
+
+public class Dog {
+ 
+	String Name;
+	
+	String Color;
+	
+	String Age;
+	
+	String Breed;
+
+// constructor has the same name of the Class, used when an object is created and it initializes the instance variable;
+// Example Dog(); is called constructor
+
+	public Dog () // default constructor. if you don't create it, the complier will create it for you
+	{
+	
+	}
+	
+//Adding new constructor
+	
+	public Dog(String n, String c, String a, String b) {
+
+	Name=n; // initialize the Name to n
+	Color=c; // initialize the Color to c
+	Age=a; // initialize the Age to a
+	Breed=b; // initialize the Breed to b
+}
+	
+	public Dog(String n) {
+		
+		//creating a person object w an constructor to initialize only the Name
+		
+		Name=n;
+	
+	}
+	
+	
+public void displayName()
+{
+
+	System.out.println("Name of dog: "+ Name);
+	System.out.println("Color of dog: "+ Color);
+	System.out.println("Age: "+ Age);
+	System.out.println("Breed: "+ Breed);
+	
+	}
+	
+}
+
