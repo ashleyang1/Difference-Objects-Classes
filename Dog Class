@@ -13,7 +13,7 @@ public class Dog {
 // constructor has the same name of the Class, used when an object is created and it initializes the instance variable;
 // Example Dog(); is called constructor
 
-	public Dog () // default constructor. if you don't create it, the complier will create it for you
+	public Dog () // default constructor. 
 	{
 	
 	}
