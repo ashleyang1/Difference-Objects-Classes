@@ -12,5 +12,5 @@ But an object is considered a 'dynamic entities' because it can perform actions 
 
 
 
-References:
+Reference:
 Horstmann, C. S. (2016).&nbsp;Big Java Late Objects, 2nd Edition. Wiley Global Education.
